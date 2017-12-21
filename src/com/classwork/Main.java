@@ -1,10 +1,10 @@
-package com.mirror;
+package com.classwork;
 
-import com.mirror.annotations.PrintAnnotation;
-import com.mirror.annotations.validator.validators.Length;
-import com.mirror.annotations.validator.validators.LengthValidator;
-import com.mirror.annotations.validator.validators.NotNull;
-import com.mirror.annotations.validator.validators.NotNullValidator;
+import com.classwork.annotations.PrintAnnotation;
+import com.classwork.annotations.validator.validators.Length;
+import com.classwork.annotations.validator.validators.LengthValidator;
+import com.classwork.annotations.validator.validators.NotNull;
+import com.classwork.annotations.validator.validators.NotNullValidator;
 
 import java.lang.reflect.Field;
 

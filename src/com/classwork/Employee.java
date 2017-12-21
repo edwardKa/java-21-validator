@@ -1,8 +1,8 @@
-package com.mirror;
+package com.classwork;
 
-import com.mirror.annotations.validator.validators.Length;
-import com.mirror.annotations.validator.validators.NotNull;
-import com.mirror.annotations.PrintAnnotation;
+import com.classwork.annotations.validator.validators.Length;
+import com.classwork.annotations.validator.validators.NotNull;
+import com.classwork.annotations.PrintAnnotation;
 
 public class Employee {
     @PrintAnnotation(printValue = "FIRST NAME")

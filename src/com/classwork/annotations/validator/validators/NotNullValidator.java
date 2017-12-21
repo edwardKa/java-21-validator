@@ -1,4 +1,4 @@
-package com.mirror.annotations.validator.validators;
+package com.classwork.annotations.validator.validators;
 
 public class NotNullValidator {
 

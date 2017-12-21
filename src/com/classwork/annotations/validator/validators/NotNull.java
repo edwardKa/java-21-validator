@@ -1,13 +1,11 @@
-package com.mirror.annotations;
+package com.classwork.annotations.validator.validators;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-@Target(ElementType.FIELD)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface PrintAnnotation {
-
-    String printValue();
+@Target(ElementType.FIELD)
+public @interface NotNull {
 }
